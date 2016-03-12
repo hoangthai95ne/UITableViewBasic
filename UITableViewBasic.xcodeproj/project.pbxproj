@@ -15,6 +15,10 @@
 		ABA799451C93B28200F90541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA799431C93B28200F90541 /* LaunchScreen.storyboard */; };
 		ABA799501C93B28200F90541 /* UITableViewBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA7994F1C93B28200F90541 /* UITableViewBasicTests.m */; };
 		ABA7995B1C93B28200F90541 /* UITableViewBasicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA7995A1C93B28200F90541 /* UITableViewBasicUITests.m */; };
+		ABA7996D1C93B2C000F90541 /* Banana.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA799691C93B2C000F90541 /* Banana.png */; };
+		ABA7996E1C93B2C000F90541 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA7996A1C93B2C000F90541 /* Orange.png */; };
+		ABA7996F1C93B2C000F90541 /* Peach.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA7996B1C93B2C000F90541 /* Peach.png */; };
+		ABA799701C93B2C000F90541 /* Strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA7996C1C93B2C000F90541 /* Strawberry.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		ABA799561C93B28200F90541 /* UITableViewBasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewBasicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA7995A1C93B28200F90541 /* UITableViewBasicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewBasicUITests.m; sourceTree = "<group>"; };
 		ABA7995C1C93B28200F90541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA799691C93B2C000F90541 /* Banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banana.png; sourceTree = "<group>"; };
+		ABA7996A1C93B2C000F90541 /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
+		ABA7996B1C93B2C000F90541 /* Peach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Peach.png; sourceTree = "<group>"; };
+		ABA7996C1C93B2C000F90541 /* Strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strawberry.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,7 @@
 				ABA7993B1C93B28200F90541 /* ViewController.h */,
 				ABA7993C1C93B28200F90541 /* ViewController.m */,
 				ABA7993E1C93B28200F90541 /* Main.storyboard */,
+				ABA799681C93B2C000F90541 /* Fruits */,
 				ABA799411C93B28200F90541 /* Assets.xcassets */,
 				ABA799431C93B28200F90541 /* LaunchScreen.storyboard */,
 				ABA799461C93B28200F90541 /* Info.plist */,
@@ -138,6 +147,17 @@
 				ABA7995C1C93B28200F90541 /* Info.plist */,
 			);
 			path = UITableViewBasicUITests;
+			sourceTree = "<group>";
+		};
+		ABA799681C93B2C000F90541 /* Fruits */ = {
+			isa = PBXGroup;
+			children = (
+				ABA799691C93B2C000F90541 /* Banana.png */,
+				ABA7996A1C93B2C000F90541 /* Orange.png */,
+				ABA7996B1C93B2C000F90541 /* Peach.png */,
+				ABA7996C1C93B2C000F90541 /* Strawberry.png */,
+			);
+			path = Fruits;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +264,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABA799451C93B28200F90541 /* LaunchScreen.storyboard in Resources */,
+				ABA799701C93B2C000F90541 /* Strawberry.png in Resources */,
+				ABA7996E1C93B2C000F90541 /* Orange.png in Resources */,
 				ABA799421C93B28200F90541 /* Assets.xcassets in Resources */,
+				ABA7996F1C93B2C000F90541 /* Peach.png in Resources */,
+				ABA7996D1C93B2C000F90541 /* Banana.png in Resources */,
 				ABA799401C93B28200F90541 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
